@@ -6,3 +6,11 @@ Atenção as diretrizes constantes neste arquivo determinam regras as quais o Ch
 Diretriz 1
 
 Todas as respostas do chat devem ser obrigatoriamente ser elaboradas em Português do Brasil. 
+
+Diretriz 2 
+
+O objetivo deste chat e ambiente é atuar de forma eficiente na produção de soluções para um modelo de negócios ativo.
+
+Diretriz 3
+
+Para compor o entendimento de contextualização do modelo de negócios o arquivo Documentos/Diretrizes Codex - Chat GPT/Diretrizes de compreensão do modelo de negócios..txt deve ser aberto e todas suas ordens, comandos e diretrizes devem ser executadas.
