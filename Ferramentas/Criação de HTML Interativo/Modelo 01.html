@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Plano Interativo de Prospecção – Pelotas (RS)</title>
+<style>
+:root{ --bg:#0b1020; --panel:#0e162b; --muted:#93a4c1; --text:#eaf0ff; --border:#1f2a44; --radius:18px; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,Segoe UI,Roboto,Arial}
+.wrapper{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
+aside{position:sticky;top:0;height:100vh;padding:26px;border-right:1px solid var(--border);
+background:linear-gradient(180deg,#0b1020 0%,#0a1430 40%,#0b1020 100%)}
+aside h1{font-size:18px;margin:0} .small{color:var(--muted);font-size:13px;margin-top:2px}
+.nav{display:grid;gap:8px;margin-top:16px}
+.nav a{text-decoration:none;color:var(--text);padding:10px 12px;border:1px solid var(--border);
+border-radius:12px;background:rgba(255,255,255,.02)}
+.nav a:hover{background:rgba(255,255,255,.06)}
+.toolbox{display:flex;gap:8px;margin-top:16px}
+.ghost{background:transparent;border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:10px;cursor:pointer}
+.ghost:hover{background:rgba(255,255,255,.06)}
+main{padding:30px 34px}
+.hero{background:linear-gradient(135deg,#0ea5e9 0%,#22c55e 100%);border-radius:22px;padding:24px;border:1px solid #1b2d44}
+.hero h2{margin:0 0 6px 0} .hero p{margin:0;color:#e9fffa}
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.kpi .box{background:rgba(255,255,255,.1);padding:12px 14px;border-radius:14px}
+.kpi .box h4{margin:0 0 4px 0;font-weight:500;color:#d8f3ff} .kpi .box p{margin:0;font-size:20px;font-weight:700}
+.grid{display:grid;gap:16px;margin-top:20px;grid-template-columns:repeat(auto-fill,minmax(360px,1fr))}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;inset:auto 0 0 0;height:4px;background:linear-gradient(90deg,var(--accent),transparent)}
+.card-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.card h3{margin:0} .emoji{font-size:22px}
+.sub{color:var(--muted);font-size:13px;margin:4px 0}
+.list{margin:0 0 8px 18px} .list li{margin:4px 0}
+details{border-top:1px dashed #2b3c63;padding-top:8px}
+.section-title{font-size:22px;margin:26px 0 10px}
+ul.tight li{margin:6px 0}
+footer{margin:30px 0 10px;color:var(--muted);font-size:12px}
+@media print{ .wrapper{grid-template-columns:1fr} aside{position:relative;height:auto;border:none} main{padding:16px} .grid{grid-template-columns:1fr 1fr} }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <aside>
+    <h1>Plano de Prospecção</h1>
+    <div class="small">Pelotas (RS) • Atualizado 12/08/2025</div>
+    <nav class="nav">
+      <a href="#overview">Visão geral</a>
+      <a href="#urbanos">1. Sindicatos de trabalhadores urbanos</a><a href="#rurais">2. Sindicatos rurais e agropecuários</a><a href="#empresariais">3. Associações empresariais e comerciais</a><a href="#industriais">4. Sindicatos industriais</a><a href="#servicos">5. Sindicatos de serviços e profissionais liberais</a><a href="#comunitarias">6. Associações de moradores e entidades comunitárias</a><a href="#cooperativas">7. Cooperativas de crédito e instituições financeiras</a>
+      <a href="#estrategia">Estratégia integrada</a>
+      <a href="#checklist">Checklist</a>
+    </nav>
+    <div class="toolbox">
+      <button class="ghost" id="expand">Expandir tudo</button>
+      <button class="ghost" id="collapse">Recolher tudo</button>
+    </div>
+  </aside>
+
+  <main>
+    <section id="overview" class="hero">
+      <h2>Mapa de prospecção por entidades</h2>
+      <p>Use a barra lateral para navegar. Cards com perfil + ações; colapse/expanda; copie seções; ao final, <strong>Imprimir → Salvar como PDF</strong> para gerar um PDF com este design.</p>
+      <div class="kpi">
+        <div class="box"><h4>Segmentos</h4><p>7</p></div>
+        <div class="box"><h4>Foco inicial</h4><p>CEEE / Zona Sul</p></div>
+        <div class="box"><h4>Última atualização</h4><p>12/08/2025</p></div>
+      </div>
+    </section>
+
+    <div class="grid">
+      
+    <article id="urbanos" class="card" style="--accent:#60a5fa">
+      <div class="card-head">
+        <div class="emoji">🏙️</div>
+        <h3>1. Sindicatos de trabalhadores urbanos</h3>
+        <button class="ghost copy" data-target="urbanos">Copiar seção</button>
+      </div>
+      <div class="sub">Perfil e exemplos</div>
+      <ul class="list"><li>Servidores públicos (SINDSERV; sindicatos de secretarias municipais: saúde, educação, obras etc.).</li><li>Educação: CPERS (estadual), sindicatos da rede particular e associações de servidores técnico‑administrativos da UFPEL e IFSul.</li><li>Saúde: sindicatos de enfermeiros, técnicos de enfermagem, associações de médicos e fisioterapeutas.</li><li>Bancários: Sindicato dos Bancários de Pelotas e Região (Contraf‑CUT).</li><li>Comerciários: Sindicato dos Empregados no Comércio de Pelotas.</li><li>Transporte: Sindicato dos Trabalhadores em Empresas de Transporte Rodoviário de Pelotas e Região.</li></ul>
+      <details>
+        <summary><strong>Ações sugeridas</strong></summary>
+        <ul class="list"><li>Convênios com desconto em folha/consignação.</li><li>Palestras in loco ou lives sobre economia de energia (benefício coletivo).</li><li>Materiais específicos por categoria (ex.: estabilidade no serviço público; sustentabilidade no setor bancário).</li></ul>
+      </details>
+    </article>
+    
+    <article id="rurais" class="card" style="--accent:#34d399">
+      <div class="card-head">
+        <div class="emoji">🚜</div>
+        <h3>2. Sindicatos rurais e agropecuários</h3>
+        <button class="ghost copy" data-target="rurais">Copiar seção</button>
+      </div>
+      <div class="sub">Perfil e exemplos</div>
+      <ul class="list"><li>Sindicatos vinculados à FARSUL ou FETAG.</li><li>Cooperativas agrárias: Cooperativa dos Arrozeiros, cooperativas de leite e associações de fruticultores.</li></ul>
+      <details>
+        <summary><strong>Ações sugeridas</strong></summary>
+        <ul class="list"><li>Autonomia energética para irrigação, ordenha, armazenamento e secagem de grãos.</li><li>Casos de sucesso em fazendas que reduziram custos.</li><li>Financiamento rural (Pronaf, Pronamp, cooperativas de crédito) com simulações de payback.</li></ul>
+      </details>
+    </article>
+    
+    <article id="empresariais" class="card" style="--accent:#38bdf8">
+      <div class="card-head">
+        <div class="emoji">🏢</div>
+        <h3>3. Associações empresariais e comerciais</h3>
+        <button class="ghost copy" data-target="empresariais">Copiar seção</button>
+      </div>
+      <div class="sub">Perfil e exemplos</div>
+      <ul class="list"><li>CDL de Pelotas; Associação Comercial de Pelotas (ACP); entidades setoriais.</li><li>SEBRAE/RS com escritório local.</li></ul>
+      <details>
+        <summary><strong>Ações sugeridas</strong></summary>
+        <ul class="list"><li>Apresentações específicas por segmento (lojas, restaurantes, escritórios, pequenas indústrias).</li><li>Cases de redução de custos e valor de marca com energia limpa.</li><li>Participação em eventos (cafés empresariais, workshops) para networking e visibilidade.</li></ul>
+      </details>
+    </article>
+    
+    <article id="industriais" class="card" style="--accent:#f59e0b">
+      <div class="card-head">
+        <div class="emoji">🏭</div>
+        <h3>4. Sindicatos industriais</h3>
+        <button class="ghost copy" data-target="industriais">Copiar seção</button>
+      </div>
+      <div class="sub">Perfil e exemplos</div>
+      <ul class="list"><li>Indústria de alimentos (laticínios, arroz), metalúrgicos, madeireiros/moveleiros, têxteis.</li><li>Integração com FIERGS e sindicatos setoriais.</li></ul>
+      <details>
+        <summary><strong>Ações sugeridas</strong></summary>
+        <ul class="list"><li>Auditorias energéticas gratuitas/diagnósticos preliminares para economia de escala.</li><li>Geração distribuída para picos de produção e previsibilidade de custos.</li><li>Convênios com extensão a fornecedores e parceiros.</li></ul>
+      </details>
+    </article>
+    
+    <article id="servicos" class="card" style="--accent:#a78bfa">
+      <div class="card-head">
+        <div class="emoji">🧑‍⚕️</div>
+        <h3>5. Sindicatos de serviços e profissionais liberais</h3>
+        <button class="ghost copy" data-target="servicos">Copiar seção</button>
+      </div>
+      <div class="sub">Perfil e exemplos</div>
+      <ul class="list"><li>Sindicatos/associações de hotéis, bares e restaurantes.</li><li>Associações de Engenheiros, Contadores, Médicos, Advogados (OAB, CREMERS, CREA, CRC etc.).</li></ul>
+      <details>
+        <summary><strong>Ações sugeridas</strong></summary>
+        <ul class="list"><li>Redução de custos fixos e impacto no fluxo de caixa.</li><li>Valorização do imóvel próprio e imagem socioambiental.</li><li>Kits de comunicação para newsletters, sites e redes sociais.</li></ul>
+      </details>
+    </article>
+    
+    <article id="comunitarias" class="card" style="--accent:#ef4444">
+      <div class="card-head">
+        <div class="emoji">🏘️</div>
+        <h3>6. Associações de moradores e entidades comunitárias</h3>
+        <button class="ghost copy" data-target="comunitarias">Copiar seção</button>
+      </div>
+      <div class="sub">Perfil e exemplos</div>
+      <ul class="list"><li>Associações de bairro e condomínios.</li><li>Clubes sociais e associações recreativas (ex.: Clube Brilhante, Centro Português).</li></ul>
+      <details>
+        <summary><strong>Ações sugeridas</strong></summary>
+        <ul class="list"><li>Sistema fotovoltaico na sede como vitrine.</li><li>Palestras, feiras de sustentabilidade e campanhas solidárias.</li><li>Projetos coletivos para conjuntos de casas/condomínios.</li></ul>
+      </details>
+    </article>
+    
+    <article id="cooperativas" class="card" style="--accent:#22c55e">
+      <div class="card-head">
+        <div class="emoji">💳</div>
+        <h3>7. Cooperativas de crédito e instituições financeiras</h3>
+        <button class="ghost copy" data-target="cooperativas">Copiar seção</button>
+      </div>
+      <div class="sub">Perfil e exemplos</div>
+      <ul class="list"><li>Sicredi Zona Sul RS, Sicoob, Unicred; BB, Banrisul, Caixa e bancos privados com carteiras ESG.</li></ul>
+      <details>
+        <summary><strong>Ações sugeridas</strong></summary>
+        <ul class="list"><li>Parcerias para linhas de financiamento com condições especiais (juros, prazos, carência).</li><li>Divulgação conjunta nos canais das cooperativas (revistas, redes, assembleias).</li><li>Simulações de crédito comparando cenários com/sem energia solar.</li></ul>
+      </details>
+    </article>
+    
+    </div>
+
+    <section id="estrategia">
+      <h3 class="section-title">Estratégia integrada de prospecção</h3>
+      <ul class="tight">
+        <li>Mapeamento detalhado: base com nome, endereço, contato do responsável e nº de filiados.</li><li>Qualificação do contato: priorizar engajamento e histórico de parcerias.</li><li>Material personalizado: PDFs e vídeos por segmento; fichas de benefícios e ROI.</li><li>Ações educacionais: webinars, workshops e visitas técnicas.</li><li>Financiamento e garantias: opções claras; assistência pós‑venda destacada.</li><li>Campanhas conjuntas: conteúdos com logomarca da entidade parceira.</li><li>Mensuração e feedback: leads, fechamentos, NPS — revisão mensal.</li>
+      </ul>
+    </section>
+
+    <section id="checklist">
+      <h3 class="section-title">Checklist para reuniões</h3>
+      <ul class="tight">
+        <li>Contato do responsável confirmado e entidade priorizada.</li>
+        <li>Dores energéticas mapeadas (conta média, perfil de uso).</li>
+        <li>Apresentação realizada (PDF/vídeo) e dúvidas registradas.</li>
+        <li>Discussão de financiamento (pré‑simulação enviada).</li>
+        <li>Próximo passo agendado (reunião técnica/visita).</li>
+        <li>Status atualizado no funil e follow‑up programado.</li>
+      </ul>
+    </section>
+
+    <footer>IVA — Energia Solar • Documento interativo (HTML). Para exportar, use <em>Imprimir → Salvar como PDF</em>.</footer>
+  </main>
+</div>
+
+<script>
+document.getElementById('expand').addEventListener('click',()=>{
+  document.querySelectorAll('details').forEach(d=>d.open=true);
+});
+document.getElementById('collapse').addEventListener('click',()=>{
+  document.querySelectorAll('details').forEach(d=>d.open=false);
+});
+document.querySelectorAll('.copy').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const id = btn.getAttribute('data-target');
+    const el = document.getElementById(id);
+    const text = el.innerText.replace(/\n\n+/g, '\n').trim();
+    navigator.clipboard.writeText(text).then(()=>{
+      btn.textContent = 'Copiado!';
+      setTimeout(()=>btn.textContent='Copiar seção',1200);
+    });
+  });
+});
+</script>
+</body>
+</html>

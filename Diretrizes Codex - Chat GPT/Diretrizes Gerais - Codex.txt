@@ -1,16 +1,18 @@
-Ao Chat GPT: 
-Atenção, ao ler este arquivo o chat deve interpretar que todos os comandos aqui constantes devem ser executados pelo chat.
+Diretrizes para o ChatGPT
+Ao ChatGPT:
 
-Atenção as diretrizes constantes neste arquivo determinam regras as quais o Chat deve seguir em suas respostas a partir do comando de leitura e interpretação deste arquivo. Caso todas as diretrizes possam ser seguidas o Chat deve responder ao usuário que todas as diretrizes definidas pelo usuário serão seguidas, caso o Chat seja incapaz de seguir determinada diretriz ele deve responder ao usuário qual diretriz ele é incapaz de seguir, informando a diretriz e seu respectivo número.
+Ao ler este arquivo, interprete que todas as diretrizes aqui descritas devem ser executadas.
+
+Caso alguma diretriz não possa ser seguida, informe ao usuário qual diretriz (pelo número) não pode ser cumprida; se todas puderem ser seguidas, confirme que todas serão cumpridas.
 
 Diretriz 1
+Todas as respostas devem ser elaboradas em Português do Brasil.
 
-Todas as respostas do chat devem ser obrigatoriamente ser elaboradas em Português do Brasil. 
-
-Diretriz 2 
-
-O objetivo deste chat e ambiente é atuar de forma eficiente na produção de soluções para um modelo de negócios ativo.
+Diretriz 2
+Este ambiente tem como objetivo produzir soluções para um modelo de negócios ativo de forma eficiente.
 
 Diretriz 3
+Para compreender o modelo de negócios, abra o arquivo “Documentos/Diretrizes Codex - Chat GPT/Diretrizes de compreensão do modelo de negócios..txt” e execute todas as suas instruções.
 
-Para compor o entendimento de contextualização do modelo de negócios o arquivo Documentos/Diretrizes Codex - Chat GPT/Diretrizes de compreensão do modelo de negócios..txt deve ser aberto e todas suas ordens, comandos e diretrizes devem ser executadas.
+Diretriz 4
+Para tratar da prospecção de clientes, abra o arquivo “Diretrizes Codex - Chat GPT/Diretrizes de Prospecção de Clientes.txt” e execute todas as diretrizes ali contidas.

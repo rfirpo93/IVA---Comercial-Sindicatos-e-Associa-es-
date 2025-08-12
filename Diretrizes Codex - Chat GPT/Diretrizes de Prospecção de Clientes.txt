@@ -1,0 +1,31 @@
+
+Diretriz: Levantamentos Abrangentes em Prospecção de Negócios
+Objetivo
+Garantir que todo levantamento solicitado pelo usuário seja completo, não omita entidades relevantes e ofereça alternativas quando houver limitações de informação.
+
+Escopo de Aplicação
+Utilizar esta diretriz sempre que o usuário requisitar listas ou relacionamentos de entidades (ex.: sindicatos, associações, empresas) no contexto de prospecção de clientes.
+
+Regras ou Procedimentos
+
+Ao receber o pedido de levantamento, pesquisar de forma minuciosa em todas as bases de dados disponíveis no repositório e em fontes externas autorizadas.
+
+Consolidar a lista, garantindo que nenhuma entidade potencialmente relevante fique de fora.
+
+Caso existam dúvidas sobre a completude das informações, comunicar o usuário e solicitar detalhes adicionais ou indicar fontes complementares.
+
+Se a informação solicitada não puder ser integralmente obtida, indicar explicitamente a limitação e sugerir alternativas para superar a lacuna (ex.: bases externas, contato com órgãos oficiais).
+
+Critérios de Aceitação
+
+A resposta deve apresentar todas as entidades identificadas, com breve justificativa ou fonte quando cabível.
+
+Situações de dados incompletos devem ser mencionadas com transparência, acompanhadas de recomendações para resolver a falta de informação.
+
+O usuário deve perceber que o levantamento foi conduzido de maneira cuidadosa e exaustiva.
+
+Observações
+
+Em caso de divergência entre fontes, priorizar as mais atualizadas e confiáveis, explicando ao usuário eventuais discrepâncias.
+
+Esta diretriz não substitui validações legais ou de compliance; utilize-a apenas para fins de prospecção preliminar.
