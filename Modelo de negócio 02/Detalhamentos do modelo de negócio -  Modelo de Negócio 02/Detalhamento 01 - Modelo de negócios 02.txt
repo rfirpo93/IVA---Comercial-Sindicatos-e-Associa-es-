@@ -1,0 +1,193 @@
+Resumo Executivo
+Consórcio de geração distribuída em que a usina é adquirida pelo investidor (Ag2) e operada em regime de locação para sindicato (Ag3), com rateio da energia aos consorciados (Ag4).
+
+Desconto em folha garante repasse prioritário ao investidor, reduzindo inadimplência e dando margem operacional ao sindicato.
+
+Modelo econômico baseado em tarifa de energia reduzida (0,80 R$/kWh) frente à tarifa convencional (0,95 R$/kWh), com margem de 0,05 R$/kWh para o sindicato.
+
+Premissas regulatórias alinhadas à Lei 14.300/2022 (marco legal da micro e minigeração distribuída) e à Lei 11.795/2008 (Lei dos Consórcios).
+
+Entregáveis incluem canvas, unit economics, fluxos de caixa 12/60 meses, roteiros operacionais e modelos contratuais.
+
+Detalhamento
+1. Estratégia & Mercado
+Item	Conteúdo
+Proposta de valor por agente	Ag1 (IVA): fornece e mantém usina fotovoltaica; Ag2 (Investidor): ativo com fluxo de caixa previsível; Ag3 (Sindicato): receita adicional e benefício aos filiados; Ag4 (Consorciado): economia na conta de luz via compensação.
+ICP (perfil do sindicato)	Sindicatos com ≥2 mil filiados, acesso a folha de pagamento e presença regional em áreas com irradiação >4,5 kWh/m²/dia.
+Jornada de venda	1) Prospecção de sindicatos-alvo; 2) Demonstração de valor e estudos preliminares; 3) Contrato de locação Ag2↔Ag3; 4) Campanha de adesão Ag3→Ag4; 5) Go-live operacional.
+Materiais e métricas	Apresentação institucional, simulação de economia, FAQ de consórcio, planilha de ROI. Métricas: leads qualificados, taxa de adesão, churn, NPS dos consorciados.
+2. Jurídico/Regulatório
+Documento/Exigência	Pontos de atenção
+Lei 14.300/2022 – Marco Legal da GD	Limite de 75 kW para microgeração; regras de compensação de créditos; necessidade de registro de consórcio na concessionária.
+Lei 11.795/2008 – Sistema de Consórcios	Estrutura do regulamento, administração, prestação de contas aos consorciados.
+Contrato de Locação de Ativo (Ag2↔Ag3)	Definir prazo, reajuste, garantias e seguro; prever repasses automáticos via folha.
+LGPD – Lei 13.709/2018	Tratamento de dados pessoais dos consorciados (dados bancários e de consumo).
+CLT / Lei 10.820/2003	Autorização expressa do trabalhador para desconto em folha.
+3. Financeiro
+Premissas (Base)
+Potência usina: 75 kWp (microgeração).
+
+CAPEX: R$ 4.500/kWp ⇒ R$ 337.500.
+
+Geração média: 150 kWh/kWp/mês ⇒ 11.250 kWh/mês.
+
+OPEX: 1% do CAPEX/ano.
+
+Tarifa convencional: R$ 0,95/kWh.
+
+Preço consorciado: R$ 0,80/kWh (Ag3 repassa R$ 0,75 para Ag2).
+
+Degradação: 0,5%/ano; Reajuste preço: 6%/ano.
+
+50 cotas iguais (225 kWh/mês cada).
+
+Unit Economics (por cota)
+Item	Valor
+Investimento proporcional	R$ 6.750
+Pagamento mensal do consorciado	R$ 180
+Economia frente à tarifa convencional	R$ 34/mês
+Repassado ao investidor (Ag2)	R$ 168,75/mês
+Margem sindicato (Ag3)	R$ 11,25/mês
+Taxa de adesão sugerida	R$ 500 (para Ag3)
+Fluxo de Caixa do Investidor (Ag2)
+12 meses (mensal, valores em R$):
+
+Mês	Receita	OPEX	Fluxo Líquido
+1‑12	8.437,50	281,25	8.156,25/mês
+Investimento inicial: ‑337.500 ⇒ saldo após 12 meses: ‑239.625.
+
+60 meses (anual):
+
+Ano	Receita (bruta)	OPEX	Fluxo Líquido	Saldo Acumulado
+0	–	–	‑337.500	‑337.500
+1	101.250	3.375	97.875	‑239.625
+2	107.325	3.375	103.950	‑135.675
+3	113.765	3.375	110.390	‑25.285
+4	120.611	3.375	117.236	91.951
+5	127.888	3.375	124.513	216.464
+Payback estimado: entre o 3º e 4º ano (~41 meses).
+IRR estimada: ≈18% a.a. (base).
+
+4. Operação
+Etapa	Descrição	Próxima ação
+Governança	Assembleia dos consorciados + comitê gestor do sindicato.	Definir calendário anual de reuniões e prestação de contas.
+Rateio de geração	Distribuição mensal conforme cotas; eventuais excedentes acumulam.	Implementar sistema de medição e painel de acompanhamento.
+Gestão de UCs	Cadastro de até 5 UCs por consorciado (conforme ANEEL).	Revisar limites regulamentares e manter banco de dados atualizado.
+Cobrança & repasse	Desconto em folha → conta do Ag3 → repasse automático para Ag2 (D+1).	Contratar instituição financeira para automação.
+Suporte & manutenção	SLA com Ag1 para O&M; visitas semestrais e atendimento remoto.	Criar canal de chamados e planilha de indicadores (MTBF, disponibilidade).
+5. Artefatos Gerados
+Canvas de Negócio
+
+Segmentos: Sindicatos e filiados.
+
+Proposta de valor: Energia mais barata com segurança de pagamento.
+
+Canais: Comercial B2B (para Ag3) e comunicação sindical (para Ag4).
+
+Relações: Contratos formais + suporte dedicado.
+
+Fontes de receita: Locação da usina, taxas de adesão e mensalidades.
+
+Recursos: Usina, contrato de folha, plataforma de medição.
+
+Atividades: Prospecção sindical, gestão do consórcio, O&M.
+
+Parcerias: Instituições financeiras, concessionária local.
+
+Estrutura de custos: CAPEX, OPEX, marketing, compliance.
+
+Unit Economics – Tabela anterior pronta para uso em planilha.
+
+Fluxo de Caixa 12/60 meses – Tabelas apresentadas; base para planilha financeira.
+
+Roteiro Comercial
+
+Preparação (estudo de potencial, materiais).
+
+Abordagem inicial ao sindicato.
+
+Workshop de sensibilização com diretoria.
+
+Proposta técnica/financeira.
+
+Fechamento e assinatura de contratos.
+
+Campanha de adesão aos consorciados.
+
+Playbook de Implantação
+
+Planejamento e análise de viabilidade.
+
+Assinatura dos contratos (locação, regulamento, adesões).
+
+Construção/homologação da usina (Ag1).
+
+Integração com concessionária e cadastro das UCs.
+
+Operação piloto (primeiro ciclo de faturamento).
+
+Operação plena e monitoramento contínuo.
+
+6. Minutas-base (estrutura resumida)
+Minuta	Cláusulas-chave
+Locação Ag2↔Ag3	Objeto, prazo, valor de locação, reajuste, garantias, seguro, repasse em D+1, rescisão.
+Regulamento do Consórcio Ag3↔Ag4	Critérios de adesão, direitos/obrigações, rateio de geração, assembleias, penalidades.
+Termo de Adesão Ag4	Dados pessoais, autorização de desconto em folha, cessão de créditos, aceite do regulamento.
+Política de Desconto em Folha/Repasse	Fluxo operacional, prazos, responsabilidade solidária do sindicato, prestação de contas.
+SLA/Manutenção Ag1↔Ag3/Ag2	Níveis de disponibilidade, prazos de atendimento, penalidades por indisponibilidade, cronograma de manutenção preventiva.
+7. Checklists
+Due Diligence do Sindicato
+
+Situação fiscal e trabalhista regular.
+
+Estatuto permitindo constituição de consórcio.
+
+Capacidade de gerenciar folha e repasses.
+
+Histórico de inadimplência dos filiados.
+
+Onboarding de Consorciados
+
+Preenchimento do termo de adesão e autorização de desconto.
+
+Cadastro de UCs e contas bancárias.
+
+Orientação sobre uso do portal e atendimento.
+
+Homologação Técnica
+
+Laudo de comissionamento da usina.
+
+Homologação junto à concessionária.
+
+Testes de geração e integração com sistema de medição.
+
+Registro fotográfico e entrega de manual.
+
+Compliance
+
+Conformidade com LGPD e guarda de dados.
+
+Atualização de seguros e licenças.
+
+Auditoria anual do consórcio e contas.
+
+Monitoramento de fraudes ou desvios de recursos.
+
+Riscos & Mitigações
+Risco	Mitigação
+Atraso na homologação da usina	Planejamento com buffers e acompanhamento junto à concessionária.
+Inadimplência residual	Desconto em folha + fundo de reserva de 5% da receita mensal.
+Variação tarifária inesperada	Prever cláusula de reajuste vinculada ao índice tarifário local.
+Resistência dos filiados	Campanhas educativas e simulações personalizadas de economia.
+Mudanças regulatórias	Monitorar ANEEL e manter assessoria jurídica especializada.
+Indicadores de Sucesso
+Taxa de adesão ≥80% da capacidade de cotas em até 6 meses.
+
+Disponibilidade da usina ≥98% anual.
+
+Inadimplência <2% das cotas.
+
+Payback do investidor ≤42 meses.
+
+NPS dos consorciados ≥70.

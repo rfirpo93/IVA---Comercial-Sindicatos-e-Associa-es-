@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Marco regulatório e normas – Consórcio de Geração Compartilhada</title>
+<style>
+:root{ --bg:#0b1020; --panel:#0e162b; --muted:#93a4c1; --text:#eaf0ff; --border:#1f2a44; --radius:18px; }
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,Segoe UI,Roboto,Arial}
+.wrapper{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
+aside{position:sticky;top:0;height:100vh;padding:26px;border-right:1px solid var(--border);
+background:linear-gradient(180deg,#0b1020 0%,#0a1430 40%,#0b1020 100%)}
+aside h1{font-size:18px;margin:0} .small{color:var(--muted);font-size:13px;margin-top:2px}
+.nav{display:grid;gap:8px;margin-top:16px}
+.nav a{text-decoration:none;color:var(--text);padding:10px 12px;border:1px solid var(--border);
+border-radius:12px;background:rgba(255,255,255,.02)}
+.nav a:hover{background:rgba(255,255,255,.06)}
+.toolbox{display:flex;gap:8px;margin-top:16px}
+.ghost{background:transparent;border:1px solid var(--border);color:var(--text);padding:8px 12px;border-radius:10px;cursor:pointer}
+.ghost:hover{background:rgba(255,255,255,.06)}
+main{padding:30px 34px}
+.hero{background:linear-gradient(135deg,#0ea5e9 0%,#22c55e 100%);border-radius:22px;padding:24px;border:1px solid #1b2d44}
+.hero h2{margin:0 0 6px 0} .hero p{margin:0;color:#e9fffa}
+.kpi{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+.kpi .box{background:rgba(255,255,255,.1);padding:12px 14px;border-radius:14px}
+.kpi .box h4{margin:0 0 4px 0;font-weight:500;color:#d8f3ff} .kpi .box p{margin:0;font-size:20px;font-weight:700}
+.grid{display:grid;gap:16px;margin-top:20px;grid-template-columns:repeat(auto-fill,minmax(360px,1fr))}
+.card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px;position:relative;overflow:hidden}
+.card::before{content:'';position:absolute;inset:auto 0 0 0;height:4px;background:linear-gradient(90deg,var(--accent),transparent)}
+.card-head{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.card h3{margin:0} .emoji{font-size:22px}
+.sub{color:var(--muted);font-size:13px;margin:4px 0}
+.list{margin:0 0 8px 18px} .list li{margin:4px 0}
+.section-title{font-size:22px;margin:26px 0 10px}
+footer{margin:30px 0 10px;color:var(--muted);font-size:12px}
+@media print{ .wrapper{grid-template-columns:1fr} aside{position:relative;height:auto;border:none} main{padding:16px} .grid{grid-template-columns:1fr 1fr} }
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <aside>
+    <h1>Marco regulatório & normas</h1>
+    <div class="small">Plano de Negócios 02 — Atualizado 12/08/2025</div>
+    <nav class="nav">
+      <a href="#overview">Visão geral</a>
+      <a href="#lei-14300-2022">Lei 14.300/2022 – Marco Legal da Micro e Minigeração Distribuída</a><a href="#anel-1000-2021">Resolução Normativa ANEEL 1.000/2021</a><a href="#aneel-414-2010">Resolução Normativa ANEEL 414/2010</a><a href="#aneel-482-687">Resoluções ANEEL 482/2012 e 687/2015</a><a href="#lei-11795-2008">Lei 11.795/2008 – Lei dos Consórcios</a><a href="#circular-bacen-3432">Circular BACEN 3.432/2009 e atualizações</a><a href="#codigo-civil">Código Civil (Lei 10.406/2002)</a><a href="#lei-inquilinato">Lei 8.245/1991 – Lei do Inquilinato</a><a href="#lei-10820-2003">Lei 10.820/2003 e Decreto 4.840/2003</a><a href="#clt">Consolidação das Leis do Trabalho – CLT (Decreto-Lei 5.452/1943)</a><a href="#lgpd">Lei Geral de Proteção de Dados – LGPD (Lei 13.709/2018)</a><a href="#cdc">Código de Defesa do Consumidor – CDC (Lei 8.078/1990)</a><a href="#licenciamento">Lei 9.784/1999 e Resolução CONAMA 237/1997</a><a href="#tributos">Legislação tributária correlata (ICMS, PIS/COFINS, ISS)</a>
+    </nav>
+    <div class="toolbox">
+      <button class="ghost" id="copy-refs">Copiar todos os itens</button>
+    </div>
+  </aside>
+
+  <main>
+    <section id="overview" class="hero">
+      <h2>Legislação relacionada ao modelo de negócio</h2>
+      <p>Lista consolidada das principais normas e leis que afetam o Consórcio de geração compartilhada para sindicatos.</p>
+      <div class="kpi">
+        <div class="box"><h4>Itens</h4><p>14</p></div>
+        <div class="box"><h4>Atualização</h4><p>12/08/2025</p></div>
+        <div class="box"><h4>Status</h4><p>Versão de referência</p></div>
+      </div>
+    </section>
+
+    <div class="grid">
+      
+    <article id="lei-14300-2022" class="card" style="--accent:#22c55e">
+      <div class="card-head">
+        <div class="emoji">📘</div>
+        <h3>Lei 14.300/2022 – Marco Legal da Micro e Minigeração Distribuída</h3>
+        <button class="ghost copy" data-target="lei-14300-2022">Copiar</button>
+      </div>
+      <ul class="list"><li>Regras para instalação, conexão e compensação de créditos de energia; fundamenta a operação da usina fotovoltaica e o consórcio de geração compartilhada.</li></ul>
+    </article>
+    
+    <article id="anel-1000-2021" class="card" style="--accent:#60a5fa">
+      <div class="card-head">
+        <div class="emoji">⚖️</div>
+        <h3>Resolução Normativa ANEEL 1.000/2021</h3>
+        <button class="ghost copy" data-target="anel-1000-2021">Copiar</button>
+      </div>
+      <ul class="list"><li>Estabelece direitos e deveres do consumidor de energia; define requisitos de conexão e atendimento para micro e minigeração.</li></ul>
+    </article>
+    
+    <article id="aneel-414-2010" class="card" style="--accent:#38bdf8">
+      <div class="card-head">
+        <div class="emoji">🧾</div>
+        <h3>Resolução Normativa ANEEL 414/2010</h3>
+        <button class="ghost copy" data-target="aneel-414-2010">Copiar</button>
+      </div>
+      <ul class="list"><li>Normas de fornecimento de energia elétrica; aborda registro de unidades consumidoras e faturamento, impactando o rateio dos créditos entre consorciados.</li></ul>
+    </article>
+    
+    <article id="aneel-482-687" class="card" style="--accent:#a78bfa">
+      <div class="card-head">
+        <div class="emoji">🗂️</div>
+        <h3>Resoluções ANEEL 482/2012 e 687/2015</h3>
+        <button class="ghost copy" data-target="aneel-482-687">Copiar</button>
+      </div>
+      <ul class="list"><li>Textos históricos que deram origem ao regime de compensação de geração distribuída; úteis para interpretar dispositivos ainda aplicáveis até a plena vigência do marco legal.</li></ul>
+    </article>
+    
+    <article id="lei-11795-2008" class="card" style="--accent:#f59e0b">
+      <div class="card-head">
+        <div class="emoji">🧩</div>
+        <h3>Lei 11.795/2008 – Lei dos Consórcios</h3>
+        <button class="ghost copy" data-target="lei-11795-2008">Copiar</button>
+      </div>
+      <ul class="list"><li>Disciplina a formação, administração e responsabilidades em consórcios; base jurídica para o regulamento do consórcio entre sindicato e sindicalizados.</li></ul>
+    </article>
+    
+    <article id="circular-bacen-3432" class="card" style="--accent:#ef4444">
+      <div class="card-head">
+        <div class="emoji">🏦</div>
+        <h3>Circular BACEN 3.432/2009 e atualizações</h3>
+        <button class="ghost copy" data-target="circular-bacen-3432">Copiar</button>
+      </div>
+      <ul class="list"><li>Normas complementares à Lei dos Consórcios: requisitos de constituição, fiscalização e prestação de contas pela administradora.</li></ul>
+    </article>
+    
+    <article id="codigo-civil" class="card" style="--accent:#22c55e">
+      <div class="card-head">
+        <div class="emoji">📜</div>
+        <h3>Código Civil (Lei 10.406/2002)</h3>
+        <button class="ghost copy" data-target="codigo-civil">Copiar</button>
+      </div>
+      <ul class="list"><li>Regras gerais de contratos, locação de bens móveis e prestação de serviços; baliza os contratos entre Ag2↔Ag3 e Ag3↔Ag4.</li></ul>
+    </article>
+    
+    <article id="lei-inquilinato" class="card" style="--accent:#60a5fa">
+      <div class="card-head">
+        <div class="emoji">🏠</div>
+        <h3>Lei 8.245/1991 – Lei do Inquilinato</h3>
+        <button class="ghost copy" data-target="lei-inquilinato">Copiar</button>
+      </div>
+      <ul class="list"><li>Aplicável se a locação envolver imóveis (por exemplo, terreno ou área para instalação da usina).</li></ul>
+    </article>
+    
+    <article id="lei-10820-2003" class="card" style="--accent:#38bdf8">
+      <div class="card-head">
+        <div class="emoji">🧮</div>
+        <h3>Lei 10.820/2003 e Decreto 4.840/2003</h3>
+        <button class="ghost copy" data-target="lei-10820-2003">Copiar</button>
+      </div>
+      <ul class="list"><li>Regulam o desconto de obrigações em folha de pagamento; garantem a legalidade do repasse direto ao investidor.</li></ul>
+    </article>
+    
+    <article id="clt" class="card" style="--accent:#a78bfa">
+      <div class="card-head">
+        <div class="emoji">🧰</div>
+        <h3>Consolidação das Leis do Trabalho – CLT (Decreto-Lei 5.452/1943)</h3>
+        <button class="ghost copy" data-target="clt">Copiar</button>
+      </div>
+      <ul class="list"><li>Autoriza e disciplina a retenção salarial mediante concordância do empregado; trata da participação sindical e do repasse via folha.</li></ul>
+    </article>
+    
+    <article id="lgpd" class="card" style="--accent:#f59e0b">
+      <div class="card-head">
+        <div class="emoji">🔐</div>
+        <h3>Lei Geral de Proteção de Dados – LGPD (Lei 13.709/2018)</h3>
+        <button class="ghost copy" data-target="lgpd">Copiar</button>
+      </div>
+      <ul class="list"><li>Estabelece regras para coleta, armazenamento e uso de dados pessoais de consorciados e demais agentes.</li></ul>
+    </article>
+    
+    <article id="cdc" class="card" style="--accent:#ef4444">
+      <div class="card-head">
+        <div class="emoji">🛡️</div>
+        <h3>Código de Defesa do Consumidor – CDC (Lei 8.078/1990)</h3>
+        <button class="ghost copy" data-target="cdc">Copiar</button>
+      </div>
+      <ul class="list"><li>Direitos e deveres nas relações de consumo; aplica-se à oferta de cotas e serviços aos sindicalizados.</li></ul>
+    </article>
+    
+    <article id="licenciamento" class="card" style="--accent:#22c55e">
+      <div class="card-head">
+        <div class="emoji">🌿</div>
+        <h3>Lei 9.784/1999 e Resolução CONAMA 237/1997</h3>
+        <button class="ghost copy" data-target="licenciamento">Copiar</button>
+      </div>
+      <ul class="list"><li>Procedimentos administrativos e licenciamento ambiental; necessários para a implantação e operação da usina fotovoltaica.</li></ul>
+    </article>
+    
+    <article id="tributos" class="card" style="--accent:#60a5fa">
+      <div class="card-head">
+        <div class="emoji">💸</div>
+        <h3>Legislação tributária correlata (ICMS, PIS/COFINS, ISS)</h3>
+        <button class="ghost copy" data-target="tributos">Copiar</button>
+      </div>
+      <ul class="list"><li>Incidência de tributos sobre geração, venda de energia e prestação de serviços; afeta a composição de preços e margens.</li></ul>
+    </article>
+    
+    </div>
+
+    <footer>IVA — Energia Solar • Documento interativo (HTML). Para exportar, use <em>Imprimir → Salvar como PDF</em>.</footer>
+  </main>
+</div>
+
+<script>
+document.getElementById('copy-refs').addEventListener('click', ()=>{
+  const texts = Array.from(document.querySelectorAll('.card')).map(c=>c.innerText.trim());
+  const full = texts.join('\n\n');
+  navigator.clipboard.writeText(full).then(()=>{
+    const btn = document.getElementById('copy-refs');
+    btn.textContent = 'Copiado!';
+    setTimeout(()=>btn.textContent='Copiar todos os itens', 1200);
+  });
+});
+
+document.querySelectorAll('.copy').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    const id = btn.getAttribute('data-target');
+    const el = document.getElementById(id);
+    const text = el.innerText.replace(/\n\n+/g, '\n').trim();
+    navigator.clipboard.writeText(text).then(()=>{
+      btn.textContent = 'Copiado!';
+      setTimeout(()=>btn.textContent='Copiar',1200);
+    });
+  });
+});
+</script>
+</body>
+</html>
